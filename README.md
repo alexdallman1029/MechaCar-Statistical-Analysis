@@ -44,9 +44,8 @@ The linear model predicts mpg of MechaCar prototypes because the p value <= .05 
 
 ## Summary Statistics on Suspension Coils
 
+<img src="https://github.com/alexdallman1029/MechaCar-Statistical-Analysis/blob/main/Screenshot%202022-04-11%20124912.png" alt="drawing" width="600"/><br>
 <img src="https://github.com/alexdallman1029/MechaCar-Statistical-Analysis/blob/main/Screenshot%202022-04-11%20124841.png" alt="drawing" width="600"/>
-<img src="" alt="drawing" width="300"/>
-
 
 1. The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
@@ -106,10 +105,20 @@ To reject the null hypothesis, that suspension pressure for all lots and each lo
 
 1. Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. What metrics would be of interest to a consumer: cost, city or highway fuel efficiency, horsepower, maintenance cost, or safety rating?
 
+You could test whether the average ratings for metrics for MechaCar vs competitors were higher. All of the metrics would be pertinent for consumers while comparing the brands. 
+
 2. What metric or metrics are you going to test?
+
+I would check all summary statistics for each metric (mean, median, variance, and standard deviation).
 
 3. What is the null hypothesis or alternative hypothesis?
 
+The null hypothesis is that there are no statistical differences in the ratings for each metric between MechaCar and the competitor. The alternative hypothesis is that there are statistical differences between metrics of Mechacar and the competitor.
+
 4. What statistical test would you use to test the hypothesis? And why?
 
+I would use a two-sample t-test to test this hypothesis for each metric because we are testing whether there is a statistical difference between the distribution means from two samples.
+
 5. What data is needed to run the statistical test?
+
+The distributional means for each metric for both MechaCar and the competitor are needed to run the tests.
